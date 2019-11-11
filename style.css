@@ -1,0 +1,124 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    background: greenyellow;
+    color: white;
+    padding-top: 30px;
+    min-height: 70px;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header a{
+    color: white;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 16px;
+}
+
+header li{
+    
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+header #brand h2{
+    margin: 0;
+}
+
+header #brand{
+    float: left;
+}
+
+header nav{
+    float: right;
+    margin-top: 10px;
+}
+
+header a:hover{
+    color: grey;
+    font-weight: bold;
+}
+
+#section-one{
+    min-width: 100px;
+    height: 400px;
+    text-align: center;
+    color: hotpink;
+    background-blend-mode: multiply;
+}
+
+#section-one h1{
+    margin-top: 100px;
+    margin-bottom: 5px;
+    font-size: 30;
+}
+
+footer{
+    padding: 20px;
+    color: white;
+    background: indigo;
+    text-align: center;
+    margin-top: 20px;
+}
+
+footer .foot{
+    float: left;
+    padding-left: 100px;
+}
+
+footer input[type="email"]{
+    height: 25px;
+    padding: 4px;
+}
+
+footer button{
+    height: 30px;
+    color: lightcoral;
+    background: black;
+    width: 70px;
+}
+
+
+.signup-form {
+    width: 400px;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+.signup-form input {
+    width: 90%;
+    height: 40px;
+    padding: 0px 5%;
+    margin-bottom: 4px;
+    
+    background-color: white;
+    font-family: arial;
+    font-size: 16px;
+    color: grey;
+    line-height: 40px;
+}
+
+.signup-form button {
+    display: block;
+    margin: 0 auto;
+    width: 40px;
+    height: 40px;
+    border: none;
+    background-color: grey;
+    font-family: arial;
+    font-size: 16px;
+    color: lawngreen;
+    cursor: pointer;
+}
+
+.signup-form button:hover {
+    background-color: lightblue;
+}
